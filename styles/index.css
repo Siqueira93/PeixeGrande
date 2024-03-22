@@ -10,6 +10,11 @@
     --oneColor:rgb(203, 203, 203);
     --twoColor:white;
 }
+a{
+    color: black;
+    text-decoration: none;
+}
+
 body{
     height: 100vh;
     background-color: var(--oneColor);
@@ -17,7 +22,8 @@ body{
 #head{
     display: flex;
     justify-content: end;
-    gap: 8px;
+    gap: 15px;
+    padding: 10px;
 }
 .banner{
     display: flex;
@@ -28,21 +34,27 @@ h3 {
     padding: 5px;
     margin: 5px;
 }
+#title{
+    display: flex;
+    background-color:var(--colorPrimary);
+    width: 100%;
+    color: white;
+}
+#Serviços{
+    width: 70%;
+}
+#Agenda{
+    width: 30%;
+    
+}
 .titleSecundary{
     display: flex;
-    justify-content: space-between;
+    width: 100%;
     padding: 10px;
     background-color: var(--colorPrimary);
     color: var(--twoColor);
 }
-#title1{
-    display: flex;
 
-}
-#title2{
-    display: flex;
-
-}
 .marking{
     display: flex;
     margin: 10px 10px 0px 10px;
