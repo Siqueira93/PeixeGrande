@@ -34,18 +34,21 @@ h3 {
     padding: 5px;
     margin: 5px;
 }
-#title{
+.title{
     display: flex;
     background-color:var(--colorPrimary);
     width: 100%;
     color: white;
+    padding: 10px;
+    justify-content: space-between;
 }
-#Serviços{
-    width: 70%;
+.title #Servicos{
+    margin: 0 20px;
 }
-#Agenda{
-    width: 30%;
-    
+.title #Agenda{  
+    display: flex;
+    margin-right: 200px;
+   
 }
 .titleSecundary{
     display: flex;
