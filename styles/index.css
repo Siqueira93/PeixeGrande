@@ -38,15 +38,17 @@ h3 {
     display: flex;
     background-color:var(--colorPrimary);
     width: 100%;
-    color: white;
+    color: white;   
 }
-#Serviços{
-    width: 70%;
+#Servicos{
+    display: flex;
+    margin: 0 2%;
+
 }
-#Agenda{
-    width: 30%;
-    
-}
+#Agendatitulo{
+    display: flex;
+    margin: 0px 70%;
+}                   
 .titleSecundary{
     display: flex;
     width: 100%;
